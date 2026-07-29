@@ -79,29 +79,31 @@ This project aims to answer:
 
 #  Project Workflow
 
-Data Audit & Cleaning
-        ↓
-Exploratory Data Analysis
-        ↓
-Feature Engineering
-        ↓
-Feature Selection
-        ↓
-Data Preprocessing
-        ↓
-SMOTE
-        ↓
-Baseline Models
-        ↓
-Random Forest
-        ↓
-Hyperparameter Tuning
-        ↓
-Feature Importance
-        ↓
-SHAP Explainability
-        ↓
-Business Recommendations
+1.Data Audit & Cleaning
+
+2.Exploratory Data Analysis
+
+3.Feature Engineering
+
+4.Feature Selection
+
+5.Data Preprocessing
+
+6.Baseline Models
+
+7.SMOTE
+
+8.Random Forest
+
+9.Hyperparameter Tuning
+
+10.Feature Importance
+
+11.SHAP Explainability
+
+12.Comparison and conclusion
+
+13.Business Recommendations
 
 #  Exploratory Data Analysis
 
