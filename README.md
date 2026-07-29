@@ -168,7 +168,9 @@ The tuned Random Forest achieved:
 - Higher F1 Score
 - Better ROC-AUC
 - Improved ability to identify customers likely to churn
+![Confusion Matrix](images/confusion_matrix.png)
 
+![ROC Curve](images/roc_curve.png)
 #  Feature Importance
 
 The trained Random Forest identified the most influential predictors of customer churn.
