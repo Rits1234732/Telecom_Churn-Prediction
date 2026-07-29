@@ -1,9 +1,14 @@
-
+Excel
+Python
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn
+SMOTE
 imbalanced-learn
+Machine Learning
 shap
 jupyter
+Google Colab
+GitHub
