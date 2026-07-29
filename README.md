@@ -96,6 +96,7 @@ Business Recommendations
 #  Exploratory Data Analysis
 
 The EDA focused on validating business hypotheses and discovering customer behavior patterns.
+![Churn Distribution](images/churn_distribution.png)
 
 ### Key Insights
 
