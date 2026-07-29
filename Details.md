@@ -1,5 +1,5 @@
 
-# 📊 Telecom Customer Churn Prediction using Machine Learning
+#  Telecom Customer Churn Prediction using Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn)
