@@ -9,8 +9,6 @@
 
 Predicting customer churn is one of the most impactful business applications of machine learning. In the telecom industry, acquiring a new customer is significantly more expensive than retaining an existing one. This project develops an end-to-end churn prediction pipeline that not only identifies customers likely to churn but also explains *why* they are at risk and recommends actionable retention strategies.
 
----
-
 # 📑 Table of Contents
 
 - Project Overview
@@ -28,8 +26,6 @@ Predicting customer churn is one of the most impactful business applications of 
 - Tech Stack
 - Future Improvements
 
----
-
 # 📌 Project Overview
 
 The objective of this project is to predict customer churn using supervised machine learning while uncovering the key behavioral, financial, contractual, and support-related factors influencing customer retention.
@@ -44,8 +40,6 @@ Unlike traditional churn prediction notebooks, this project combines:
 - Explainable AI using SHAP
 - Business-oriented recommendations
 
----
-
 # 💼 Business Problem
 
 Customer churn represents revenue loss, increased acquisition costs, and reduced customer lifetime value.
@@ -57,8 +51,6 @@ This project aims to answer:
 - Which customers are most likely to churn?
 - What factors contribute the most to churn?
 - How can churn be reduced through business actions?
-
----
 
 # 📂 Dataset
 
@@ -75,11 +67,8 @@ This project aims to answer:
     - Yes
     - No
 
----
-
 # 🔄 Project Workflow
 
-```
 Data Audit & Cleaning
         ↓
 Exploratory Data Analysis
@@ -103,9 +92,6 @@ Feature Importance
 SHAP Explainability
         ↓
 Business Recommendations
-```
-
----
 
 # 📈 Exploratory Data Analysis
 
@@ -123,8 +109,6 @@ The EDA focused on validating business hypotheses and discovering customer behav
 - Electronic check users showed the highest churn among payment methods.
 - Technical support tickets showed a strong positive relationship with churn.
 - Multiple technical tickets indicated severe customer dissatisfaction.
-
----
 
 # ⚙️ Feature Engineering
 
@@ -145,8 +129,6 @@ To improve model performance and capture customer behavior more effectively, sev
 
 These engineered variables capture customer engagement, support burden, loyalty, and spending behavior beyond the original dataset.
 
----
-
 # 🤖 Model Development
 
 Models Evaluated
@@ -165,8 +147,6 @@ Enhancements:
 - Feature Engineering
 - SMOTE Oversampling
 - Hyperparameter Tuning using RandomizedSearchCV
-
----
 
 # 📊 Model Performance
 
@@ -187,21 +167,9 @@ The tuned Random Forest achieved:
 - Better ROC-AUC
 - Improved ability to identify customers likely to churn
 
----
-
 # 📊 Feature Importance
 
-The trained Random Forest identified the most influential predictors of customer churn.
-
-*(Insert Feature Importance plot here)*
-
-Example:
-
-```
-images/feature_importance.png
-```
-
----
+The trained Random Forest identified the most influential predictors of customer churn. Refer feature_importance.png
 
 # 🔍 SHAP Explainability
 
@@ -218,13 +186,7 @@ The SHAP analysis highlighted:
 
 as the strongest contributors to churn prediction.
 
-*(Insert SHAP Summary Plot here)*
-
-```
-images/shap_summary.png
-```
-
----
+Refer shap_summary.png
 
 # 💡 Business Recommendations
 
@@ -237,29 +199,7 @@ Based on model insights, the following strategies are recommended:
 - Provide personalized retention offers to high-value customers.
 - Closely monitor new customers during their first year.
 - Encourage automatic payment methods.
-- Deploy the model as an early warning churn monitoring system.
-
----
-
-# 📁 Repository Structure
-
-```
-Telecom-Customer-Churn-Prediction/
-
-│── Telecom_Customer_Churn_Prediction.ipynb
-│── README.md
-│── requirements.txt
-│── telecom_customer_churn_cleaned.csv
-
-└── images/
-      ├── churn_distribution.png
-      ├── feature_importance.png
-      ├── shap_summary.png
-      ├── confusion_matrix.png
-      └── roc_curve.png
-```
-
----
+- Deploy the model as an early warning churn monitoring system
 
 # 🛠 Tech Stack
 
@@ -282,18 +222,15 @@ Development Environment
 - Google Colab
 - Git
 - GitHub
-
----
-
+  
 # 🚀 Future Improvements
 
 - Deploy using Streamlit
 - Build a real-time churn prediction dashboard
-- Compare with XGBoost, LightGBM and CatBoost
+- Compare with XGBoost, and LightGBM 
 - Integrate customer feedback and call-center transcripts
 - Develop automated retention recommendation engine
 
----
 
 # 👩‍💻 Author
 
@@ -303,7 +240,5 @@ Integrated M.Tech, Geophysical Technology
 Indian Institute of Technology Roorkee
 
 Interested in Machine Learning, Data Analytics, Product Analytics and AI-driven Business Solutions.
-
----
 
 ⭐ If you found this project interesting, consider giving the repository a star.
