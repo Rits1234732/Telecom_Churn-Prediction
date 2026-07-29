@@ -110,6 +110,7 @@ The EDA focused on validating business hypotheses and discovering customer behav
 - Electronic check users showed the highest churn among payment methods.
 - Technical support tickets showed a strong positive relationship with churn.
 - Multiple technical tickets indicated severe customer dissatisfaction.
+![Correlation Analysis](images/correlation_heatmap.png)
 
 #  Feature Engineering
 
@@ -170,7 +171,9 @@ The tuned Random Forest achieved:
 
 #  Feature Importance
 
-The trained Random Forest identified the most influential predictors of customer churn. Refer feature_importance.png
+The trained Random Forest identified the most influential predictors of customer churn.
+
+![Feature Importance](images/feature_importance.png)
 
 #  SHAP Explainability
 
@@ -187,7 +190,7 @@ The SHAP analysis highlighted:
 
 as the strongest contributors to churn prediction.
 
-Refer shap_summary.png
+![SHAP Summary](images/shap_summary.png)
 
 #  Business Recommendations
 
