@@ -241,4 +241,4 @@ Indian Institute of Technology Roorkee
 
 Interested in Machine Learning, Data Analytics, Product Analytics and AI-driven Business Solutions.
 
- If you found this project interesting, consider giving the repository a star.
+If you found this project interesting, consider giving the repository a star.
