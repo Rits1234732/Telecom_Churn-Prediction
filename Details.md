@@ -9,7 +9,7 @@
 
 Predicting customer churn is one of the most impactful business applications of machine learning. In the telecom industry, acquiring a new customer is significantly more expensive than retaining an existing one. This project develops an end-to-end churn prediction pipeline that not only identifies customers likely to churn but also explains *why* they are at risk and recommends actionable retention strategies.
 
-# 📑 Table of Contents
+#  Table of Contents
 
 - Project Overview
 - Business Problem
@@ -26,7 +26,7 @@ Predicting customer churn is one of the most impactful business applications of 
 - Tech Stack
 - Future Improvements
 
-# 📌 Project Overview
+#  Project Overview
 
 The objective of this project is to predict customer churn using supervised machine learning while uncovering the key behavioral, financial, contractual, and support-related factors influencing customer retention.
 
@@ -40,7 +40,7 @@ Unlike traditional churn prediction notebooks, this project combines:
 - Explainable AI using SHAP
 - Business-oriented recommendations
 
-# 💼 Business Problem
+#  Business Problem
 
 Customer churn represents revenue loss, increased acquisition costs, and reduced customer lifetime value.
 
@@ -52,7 +52,7 @@ This project aims to answer:
 - What factors contribute the most to churn?
 - How can churn be reduced through business actions?
 
-# 📂 Dataset
+#  Dataset
 
 **Dataset Size**
 
@@ -67,7 +67,7 @@ This project aims to answer:
     - Yes
     - No
 
-# 🔄 Project Workflow
+#  Project Workflow
 
 Data Audit & Cleaning
         ↓
@@ -93,7 +93,7 @@ SHAP Explainability
         ↓
 Business Recommendations
 
-# 📈 Exploratory Data Analysis
+#  Exploratory Data Analysis
 
 The EDA focused on validating business hypotheses and discovering customer behavior patterns.
 
@@ -110,7 +110,7 @@ The EDA focused on validating business hypotheses and discovering customer behav
 - Technical support tickets showed a strong positive relationship with churn.
 - Multiple technical tickets indicated severe customer dissatisfaction.
 
-# ⚙️ Feature Engineering
+#  Feature Engineering
 
 To improve model performance and capture customer behavior more effectively, several new features were engineered.
 
@@ -129,7 +129,7 @@ To improve model performance and capture customer behavior more effectively, sev
 
 These engineered variables capture customer engagement, support burden, loyalty, and spending behavior beyond the original dataset.
 
-# 🤖 Model Development
+#  Model Development
 
 Models Evaluated
 
@@ -148,7 +148,7 @@ Enhancements:
 - SMOTE Oversampling
 - Hyperparameter Tuning using RandomizedSearchCV
 
-# 📊 Model Performance
+#  Model Performance
 
 | Metric | Baseline Random Forest | Final Random Forest |
 |---------|----------------------:|--------------------:|
@@ -167,11 +167,11 @@ The tuned Random Forest achieved:
 - Better ROC-AUC
 - Improved ability to identify customers likely to churn
 
-# 📊 Feature Importance
+#  Feature Importance
 
 The trained Random Forest identified the most influential predictors of customer churn. Refer feature_importance.png
 
-# 🔍 SHAP Explainability
+#  SHAP Explainability
 
 SHAP was used to explain both global and individual model predictions.
 
@@ -188,7 +188,7 @@ as the strongest contributors to churn prediction.
 
 Refer shap_summary.png
 
-# 💡 Business Recommendations
+#  Business Recommendations
 
 Based on model insights, the following strategies are recommended:
 
@@ -201,7 +201,7 @@ Based on model insights, the following strategies are recommended:
 - Encourage automatic payment methods.
 - Deploy the model as an early warning churn monitoring system
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 Programming
 
@@ -223,7 +223,7 @@ Development Environment
 - Git
 - GitHub
   
-# 🚀 Future Improvements
+#  Future Improvements
 
 - Deploy using Streamlit
 - Build a real-time churn prediction dashboard
@@ -232,7 +232,7 @@ Development Environment
 - Develop automated retention recommendation engine
 
 
-# 👩‍💻 Author
+#  Author
 
 **Ritika Kumari**
 
