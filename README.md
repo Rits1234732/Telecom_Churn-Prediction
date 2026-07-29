@@ -8,6 +8,16 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 Predicting customer churn is one of the most impactful business applications of machine learning. In the telecom industry, acquiring a new customer is significantly more expensive than retaining an existing one. This project develops an end-to-end churn prediction pipeline that not only identifies customers likely to churn but also explains *why* they are at risk and recommends actionable retention strategies.
+# Repository Structure
+
+| File/Folder                                   | Description                                   |
+| --------------------------------------------- | --------------------------------------------- |
+|  `images/`                                  | EDA and model visualization plots             |
+|  `End_to_end_Churn_Analysis_Workflow.ipynb` | Complete end-to-end Analysis, modelling and predicting workflow |
+|  `README.md`                                | Project overview and documentation            |
+|  `Telecom Churn Rate Dataset.csv`           | Original raw telecom dataset                  |
+|  `requirements.txt`                         | Required Libraries and platforms                     |
+|  `telecom_customer_churn_cleaned.csv`       | Cleaned and preprocessed dataset              |
 
 #  Table of Contents
 
